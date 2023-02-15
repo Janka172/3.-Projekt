@@ -34,60 +34,59 @@
         </div>
         </div>
 
-    <div class="container">
-        <div class="media border p-3 h-100">
-            <a name="alt"></a>
-            <h3><b>Általános számológép</b></h3>
-            <!-- Általános számológép -->
-            <form name="calculator">
-                <strong>
-                <table class="tdszamologep" border="2" align="center" cellpadding="1" cellspacing="5">
-                
-                <tr> 
-                <td colspan="4" class="eredmeny"> <input name="LED" type="text" value="0" class="szin"> </td>
-                <td><input type="button" name="C" id="torol" value="  C  " onclick="Click('C')"></td>
-                <td><input name="=" type="button" id="egyenlo" value="  =  " onclick="Click('=')" class="szin"></td>
-                </tr>
-                
-                
-                <tr> 
-                <td><input name="7" type="button" id="het" value="  7  " onclick="Click('7')"> </td>
-                <td><input name="8" type="button" id="nyolc" value="  8  " onclick="Click('8')"> </td>
-                <td><input name="9" type="button" id="kilenc" value="  9  " onclick="Click('9')"> </td>
-                <td><input name="+" type="button" id="adas" value="  +  " onclick="Click('+')"> </td>
-                <td><input name="^" type="button" id="findex" value="  ^  " onclick="Click('^')"> </td>
-                </tr>
-                
-                <tr> 
-                <td><input name="4" type="button" id="negy" value="  4  " onclick="Click('4')"> </td>
-                <td><input name="5" type="button" id="otos" value="  5  " onclick="Click('5')"> </td>
-                <td><input name="6" type="button" id="hat" value="  6  " onclick="Click('6')"> </td>
-                <td><input name="-" type="button" id="vonas"  value="  -   " onclick="Click('-')"> </td>
-                <td><input name="1/x" type="button" id="egypx" value=" 1/x" onclick="Click('1/x')"></td>
-                </tr>
-                
-                <tr> 
-                <td><input name="1" type="button" id="egy" value="  1  " onclick="Click('1')"> </td>
-                <td><input name="2" type="button" id="ketto" value="  2  " onclick="Click('2')"> </td>
-                <td><input name="3" type="button" id="harom" value="  3  " onclick="Click('3')"> </td>
-                <td><input name="*" type="button" id="szorzas" value="  *   " onclick="Click('*')"> </td>
-                <td><input name="pi" type="button" id="pitag" value="  pi " onclick="Click('pi')"></td>
-                </tr>
-                
-                <tr> 
-                <td><input name="sqrt" type="button" id="sqrt" value="sqrt" onclick="Click('sqrt')"></td>
-                <td><input name="0" type="button" id="nulla" value="  0  " onclick="Click('0')"> </td>
-                <td><input name="." type="button" id="tized" value="   .  " onclick="Click('.')"> </td>
-                <td><input name="+/-" type="button" id="pvmin" value=" +/- " onclick="Click('+/-')"> </td>
-                <td><input name="/" type="button" id="osztas" value="  /   " onclick="Click('/')"> </td>
-                </tr>
-                
-                </table>
-                </strong>
-                </form>
-        </div>
-      </div>
-      
+        <div class="container">
+            <div class="media border p-3 h-100">
+                <a name="alt"></a>
+                <h3><b>Általános számológép</b></h3>
+                <!-- Általános számológép -->
+                <form name="alt">
+                    <strong>
+                    <table class="tdszamologep" border="2" align="center">
+                    
+                    <tr> 
+                    <td colspan="4" class="eredmeny"> <input name="altled" type="text" value="0" class="szin"> </td>
+                    <td><input type="button" name="C" id="torol" value="  C  " onclick="Click('aC')"></td>
+                    </tr>
+                    
+                    
+                    <tr> 
+                    <td><input name="a7" type="button" id="ahet" value="  7  " onclick="Click('a7')"> </td>
+                    <td><input name="a8" type="button" id="anyolc" value="  8  " onclick="Click('a8')"> </td>
+                    <td><input name="a9" type="button" id="akilenc" value="  9  " onclick="Click('a9')"> </td>
+                    <td><input name="a+" type="button" id="aadas" value="  +  " onclick="Click('a+')"> </td>
+                    <td><input name="a^" type="button" id="afindex" value="  ^  " onclick="Click('a^')"> </td>
+                    </tr>
+                    
+                    <tr> 
+                    <td><input name="a4" type="button" id="anegy" value="  4  " onclick="Click('a4')"> </td>
+                    <td><input name="a5" type="button" id="aotos" value="  5  " onclick="Click('a5')"> </td>
+                    <td><input name="a6" type="button" id="ahat" value="  6  " onclick="Click('a6')"> </td>
+                    <td><input name="a-" type="button" id="avonas"  value="  -   " onclick="Click('a-')"> </td>
+                    <td><input name="a1/x" type="button" id="aegypx" value=" 1/x" onclick="Click('a1/x')"></td>
+                    </tr>
+                    
+                    <tr> 
+                    <td><input name="a1" type="button" id="aegy" value="  1  " onclick="Click('a1')"> </td>
+                    <td><input name="a2" type="button" id="aketto" value="  2  " onclick="Click('a2')"> </td>
+                    <td><input name="a3" type="button" id="aharom" value="  3  " onclick="Click('a3')"> </td>
+                    <td><input name="a*" type="button" id="aszorzas" value="  *   " onclick="Click('a*')"> </td>
+                    <td><input name="api" type="button" id="apitag" value="  pi " onclick="Click('api')"></td>
+                    </tr>
+                    
+                    <tr> 
+                    <td><input type="button" name="=" id="aegyenlo" value="  =  " onclick="Click('a=')" class="szin"></td>
+                    <td><input name="a0" type="button" id="anulla" value="  0  " onclick="Click('a0')"> </td>
+                    <td><input name="a." type="button" id="atized" value="   .  " onclick="Click('a.')"> </td>
+                    <td><input name="a+/-" type="button" id="apvmin" value=" +/- " onclick="Click('a+/-')"> </td>
+                    <td><input name="a/" type="button" id="aosztas" value="  /   " onclick="Click('a/')"> </td>
+                    </tr>
+                    
+                    </table>
+                    </strong>
+                    </form>
+            </div>
+          </div>
+
       <div class="container">
         <div class="media border p-3 h-100">
             <a name="tud"></a>

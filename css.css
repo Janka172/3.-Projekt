@@ -48,14 +48,14 @@ td{
     background-color: #9e1e1e;
 }
 
-#tized, #nulla, #egy, #ketto, #harom, #negy, #otos, #hat, #het, #nyolc, #kilenc {
+#nulla, #egy, #ketto, #harom, #negy, #otos, #hat, #het, #nyolc, #kilenc {
     font-size: 10pt;
     color: #fff;
     font-weight: bold;
     background-color: black;
 }
 
-#pvmin, #adas, #vonas, #szorzas, #osztas, #findex, #egypx, #pitag, #etag{
+#pvmin, #adas, #vonas, #szorzas, #osztas, #findex, #egypx, #pitag, #etag, #tized{
     font-size: 10pt;
     font-weight: bold;
     background-color: #9e1e1e;
@@ -162,4 +162,24 @@ a:hover{
 
 h3{
     text-align: center;
+}
+
+
+
+#ahet, #anyolc, #akilenc, #anegy, #aotos, #ahat, #aegy, #aketto, #aharom, #anulla{
+    font-size: 10pt;
+    color: #fff;
+    font-weight: bold;
+    background-color: black;
+}
+
+#aadas, #afindex,#avonas, #aegypx, #aszorzas, #apitag, #atized, #apvmin, #aosztas{
+    font-size: 10pt;
+    font-weight: bold;
+    background-color: #9e1e1e;
+}
+
+#aegyenlo{
+    font-size: 10pt;
+    background-color: #fff;
 }
