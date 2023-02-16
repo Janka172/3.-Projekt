@@ -68,7 +68,7 @@ td{
 body{
     background-image: radial-gradient(rgb(95, 28, 28), rgb(0, 0, 0));
     margin: 20px 25px;
-    color: white;
+    color: black;
 }
 
 .kep{
@@ -164,22 +164,10 @@ h3{
     text-align: center;
 }
 
-
-
-#ahet, #anyolc, #akilenc, #anegy, #aotos, #ahat, #aegy, #aketto, #aharom, #anulla{
-    font-size: 10pt;
-    color: #fff;
-    font-weight: bold;
-    background-color: black;
+.gomb{
+    text-decoration:black;
 }
 
-#aadas, #afindex,#avonas, #aegypx, #aszorzas, #apitag, #atized, #apvmin, #aosztas{
-    font-size: 10pt;
-    font-weight: bold;
-    background-color: #9e1e1e;
-}
-
-#aegyenlo{
-    font-size: 10pt;
-    background-color: #fff;
+h3{
+    color: white;
 }
