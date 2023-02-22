@@ -128,3 +128,4 @@ if (Caption=="C")  reset(0);
 if(document.calculator.LED.value[0] == ".")
    document.calculator.LED.value = "0" + document.calculator.LED.value;
 }
+
