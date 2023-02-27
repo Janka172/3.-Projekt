@@ -1,0 +1,97 @@
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tudományos számológép</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+   </head>
+   <body>
+    <div class="class">
+      <nav>
+          <h2 class="logo">Számológép</h2>
+          <ul>
+              <li><a href="html.html">Főoldal</a></li>
+              <li><a href="tud.html">Tudományos számológép</a></li>
+              <li><a href="index.html">Általános számológép</a></li>
+          </ul>
+      </nav>
+  </div>
+      <div class="container">
+            <form name="calculator">
+                <strong>
+                  <table class="tdszamologep" border="2" align="center" cellpadding="1" cellspacing="5">
+                <tr> 
+                <td colspan="4" class="eredmeny"> <input name="LED" type="text" value="0" class="szin"> </td>
+                <td><input type="button" name="C" id="torol" value="  C  " onclick="Click('C')"></td>
+                <td><input name="=" type="button" id="egyenlo" value="  =  " onclick="Click('=')" class="szin"></td>
+                </tr>
+                
+                <tr> 
+                <td colspan="2" class="funkcio"> <input name="angle" type="radio" checked> Degrees  </td>
+                <td colspan="2" class="funkcio"> <input name="angle" type="radio"> Radians   </td>
+                <td colspan="2" class="funkcio"> <input name="angle" type="radio"> Gradients </td>
+                </tr>
+                
+                <tr> 
+                <td> <input name="sin" type="button" id="sin" value=" sin " onclick="Click('sin')" class="szin"></td>
+                <td> <input name="cos" type="button" id="cos" value=" cos" onclick="Click('cos')" class="szin"></td>
+                <td> <input name="tab" type="button" id="tan" value=" tan " onclick="Click('tan')" class="szin"></td>
+                <td> <input name="sinh" type="button" id="sinh" value="sinh" onclick="Click('sinh')" class="szin"></td>
+                <td> <input name="cosh" type="button" id="cosh" value="cosh" onclick="Click('cosh')" class="szin"></td>
+                <td> <input name="tanh" type="button" id="tanh" value="tanh" onclick="Click('tanh')" class="szin"></td>
+                </tr>
+                
+                <tr> 
+                <td> <input name="asin" type="button" id="asin" value=" asin "onclick="Click('asin')" class="szin"></td>
+                <td> <input name="acos" type="button" id="acos" value=" acos "onclick="Click('acos')" class="szin"></td>
+                <td> <input name="atan" type="button" id="atan" value=" atan "onclick="Click('atan')" class="szin"></td>
+                <td> <input name="asinh" type="button" id="asinh" value="asinh " onclick="Click('asinh')" class="szin"></td>
+                <td> <input name="acosh" type="button"id="acosh"value="acosh" onclick="Click('acosh')" class="szin"></td>
+                <td> <input name="atanh" type="button" id="atanh" value="atanh" onclick="Click('atanh')" class="szin"></td>
+                </tr>
+                
+                <tr> 
+                <td><input name="exp" type="button" id="exp" value="exp" onclick="Click('exp')"></td>
+                <td><input name="7" type="button" id="het" value="  7  " onclick="Click('7')"> </td>
+                <td><input name="8" type="button" id="nyolc" value="  8  " onclick="Click('8')"> </td>
+                <td><input name="9" type="button" id="kilenc" value="  9  " onclick="Click('9')"> </td>
+                <td><input name="+" type="button" id="adas" value="  +  " onclick="Click('+')"> </td>
+                <td><input name="^" type="button" id="findex" value="  ^  " onclick="Click('^')"> </td>
+                </tr>
+                
+                <tr> 
+                <td><input name="log" type="button" id="log" value="log " onclick="Click('log')"></td>
+                <td><input name="4" type="button" id="negy" value="  4  " onclick="Click('4')"> </td>
+                <td><input name="5" type="button" id="otos" value="  5  " onclick="Click('5')"> </td>
+                <td><input name="6" type="button" id="hat" value="  6  " onclick="Click('6')"> </td>
+                <td><input name="-" type="button" id="vonas"  value="  -   " onclick="Click('-')"> </td>
+                <td><input name="1/x" type="button" id="egypx" value=" 1/x" onclick="Click('1/x')"></td>
+                </tr>
+                
+                <tr> 
+                <td><input name="ln" type="button" id="abs22" value=" ln  " onclick="Click('ln')"></td>
+                <td><input name="1" type="button" id="egy" value="  1  " onclick="Click('1')"> </td>
+                <td><input name="2" type="button" id="ketto" value="  2  " onclick="Click('2')"> </td>
+                <td><input name="3" type="button" id="harom" value="  3  " onclick="Click('3')"> </td>
+                <td><input name="*" type="button" id="szorzas" value="  *   " onclick="Click('*')"> </td>
+                <td><input name="pi" type="button" id="pitag" value="  pi " onclick="Click('pi')"></td>
+                </tr>
+                
+                <tr> 
+                <td><input name="sqrt" type="button" id="sqrt" value="sqrt" onclick="Click('sqrt')"></td>
+                <td><input name="0" type="button" id="nulla" value="  0  " onclick="Click('0')"> </td>
+                <td><input name="." type="button" id="tized" value="   .  " onclick="Click('.')"> </td>
+                <td><input name="+/-" type="button" id="pvmin" value=" +/- " onclick="Click('+/-')"> </td>
+                <td><input name="/" type="button" id="osztas" value="  /   " onclick="Click('/')"> </td>
+                <td><input name="e" type="button" id="etag" value="  e  " onclick="Click('e')"> </td>
+                </tr>
+                
+                </table>
+                </strong>
+            </form>
+        </div>
+      </div>
+    </body>
+</html>
